@@ -31,4 +31,4 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn build
-          yarn release
+          yarn release -vv
