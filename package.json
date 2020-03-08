@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "codelift",
+  "repository": "git@github.com:ericclemmons/codelift.git",
+  "author": "Eric Clemmons <eric@smarterspam.com>",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "scripts": {
+    "build": "cd packages/codelift && yarn build",
+    "cra": "cd examples/cra && codelift",
+    "next": "cd examples/next && codelift dev",
+    "release": "auto shipit",
+    "test": "echo No Tests"
+  },
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@auto-it/all-contributors": "^9.17.1",
+    "@auto-it/first-time-contributor": "^9.17.1",
+    "all-contributors-cli": "^6.14.0",
+    "auto": "^9.17.1",
+    "concurrently": "^5.1.0",
+    "lerna": "^3.20.2"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "projectName": "codelift",
+  "projectOwner": "ericclemmons",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 50,
+  "commit": true,
+  "commitConvention": "none",
+  "contributors": [
+    {
+      "login": "ericclemmons",
+      "name": "Eric Clemmons",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15182?v=4",
+      "profile": "https://ericclemmons.com/",
+      "contributions": [
+        "code",
+        "doc",
+        "infra"
+      ]
+    },
+    {
+      "login": "aulisius",
+      "name": "​Faizaan",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/6629172?v=4",
+      "profile": "https://aulisi.us",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
