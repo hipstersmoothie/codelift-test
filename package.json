@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "codelift",
-  "repository": "git@github.com:ericclemmons/codelift.git",
+  "repository": "git@github.com:hipstersmoothie/codelift-test.git",
   "author": "Eric Clemmons <eric@smarterspam.com>",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
@@ -21,8 +21,9 @@
   "devDependencies": {
     "@auto-it/all-contributors": "^9.17.1",
     "@auto-it/first-time-contributor": "^9.17.1",
+    "@auto-it/git-tag": "^9.19.1",
     "all-contributors-cli": "^6.14.0",
-    "auto": "^9.17.1",
+    "auto": "^9.19.1",
     "concurrently": "^5.1.0",
     "lerna": "^3.20.2"
   }
