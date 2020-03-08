@@ -1,4 +1,8 @@
 {
+  "owner": "hipstersmoothie",
+  "repo": "codelift-test",
+  "name": "Eric Clemmons",
+  "email": "eric@smarterspam.com",
   "plugins": [
     "all-contributors",
     "first-time-contributor",
